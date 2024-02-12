@@ -27,7 +27,7 @@
       <li><%= menu.salsa %></li>
       <% menu.ingredients.forEach(ingredient => { %>
           <li>
-            <%= ingredient.name %>
+            <%= ingredient.quantity %> of <%= ingredient.name %>
           </li>
     <% }) %>
     </ul>
